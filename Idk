@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Interactieve Website</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welkom op Mijn Interactieve Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Diensten</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Over ons</h2>
+        <p>Dit is een voorbeeldwebsite met veel leuke elementen.</p>
+        <img src="afbeelding.jpg" alt="Leuke afbeelding">
+        <video src="video.mp4" controls></video>
+        <div class="button-container">
+            <button onclick="alert('Hallo wereld!')">Klik hier</button>
+        </div>
+        <h3>Contactformulier</h3>
+        <form>
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="bericht">Bericht:</label>
+            <textarea id="bericht" name="bericht"></textarea>
+            <input type="submit" value="Verzenden">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Jouw Naam</p>
+    </footer>
+</body>
+</html>
